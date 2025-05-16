@@ -12,9 +12,7 @@ This project is a fully responsive and styled React implementation of a subscrip
 - 💳 Payment Form UI with input fields
 - ✅ Membership selection area
 - 🧾 Summary with total pricing
-- 🕒 Live countdown timer (static for now)
 - 🎁 Bonus items section dynamically rendered
-- 🔒 Secure payment note with footer image
 - 🎯 Modular components (BonusSection, GuaranteeSection)
 
 
