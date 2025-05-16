@@ -1,12 +1,23 @@
-# React + Vite
+# 28-Day Challenge – Subscription Page (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a fully responsive and styled React implementation of a subscription/payment page based on a Figma design. It simulates a checkout flow for a fitness challenge, includes bonus offers, value breakdown, and a countdown timer — all matching the provided UI layout.
+## 🔥 Live Demo
 
-Currently, two official plugins are available:
+[View Live Site on Netlify](https://elaborate-parfait-f8287b.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎨 Fully responsive layout (Figma-accurate)
+- 💳 Payment Form UI with input fields
+- ✅ Membership selection area
+- 🧾 Summary with total pricing
+- 🕒 Live countdown timer (static for now)
+- 🎁 Bonus items section dynamically rendered
+- 🔒 Secure payment note with footer image
+- 🎯 Modular components (BonusSection, GuaranteeSection)
+
+
+---
+
+
