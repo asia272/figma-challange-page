@@ -1,0 +1,116 @@
+/* Section 2 */
+.section-2 h1 {
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(126, 52, 157, 1);
+    margin: 1.65rem 0;
+    padding: 1rem 5rem;
+}
+
+.card-container {
+    /* background-color: #F8CB85; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.bonus-card {
+    background-color: rgba(255, 255, 255, 1);
+    /* min-width: 350px; */
+    border-radius: 25px;
+    box-shadow: 19.14px 38.28px 76.56px 0px rgba(0, 75, 118, 0.22);
+    text-align: center;
+    padding: 1rem 1.78rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cart-header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(126, 52, 157, 1);
+    margin: 0 1rem; 
+    transform: translateY(-42%);
+    padding: 8px 23px;
+    /* max-width: 200px; */
+}
+
+.cart-header p {
+ color: rgba(248, 203, 133, 1) !important;
+    font-family: Montserrat;
+    font-weight: 700;
+
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.cart-header span {
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+
+    letter-spacing: 24%;
+    text-align: center;
+
+}
+
+.bonus-card h2 {
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(126, 52, 157, 1);
+    /* padding: 0 2rem; */
+    margin: 1rem 0;
+}
+
+.bonus-card p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(91, 91, 91, 1);
+
+}
+
+.bonus-card img {
+    display: block;
+    width: 100%;
+}
+
+@media (max-width:700px) {
+     .section-2 h1 {
+        font-size: 44px;
+        padding: 1rem 3.55rem;
+    }
+
+}
+@media (max-width:667px) {
+    .section-2 h1 {
+        font-size: 36px;
+        padding: 1rem 1.55rem;
+    }
+
+    .card-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:440px) {
+    .bonus-card {
+        padding: 1rem;
+    }
+
+}

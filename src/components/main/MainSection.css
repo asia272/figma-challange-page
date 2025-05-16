@@ -1,0 +1,351 @@
+main {
+    padding: 2rem 5rem;
+    background: linear-gradient(180deg, #FBF7F4 65.5%, #FFFFFF 100%);
+}
+
+.section-1 {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    align-items: start;
+    justify-content: center;
+}
+
+.section-1 form {
+    padding: 1rem;
+    background-color: rgba(254, 254, 254, 1);
+    box-shadow: 14.76px 29.53px 59.05px 0px rgba(204, 204, 204, 0.53);
+    border-radius: 27px;
+    /* max-width: 500px; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    flex: 1;
+}
+
+.content-side {
+    flex: 0.2;
+    /* background-color: #B750B1; */
+    transform: translateY(-8%);
+}
+
+.content-side img {
+    display: block;
+    width: 100%;
+}
+
+form input {
+    width: 100%;
+    border: 1px solid rgba(227, 227, 227, 1);
+    padding: 0.88rem;
+    margin: 3px 0;
+}
+
+.form-heading {
+    display: flex;
+    background-color: rgba(76, 32, 93, 1);
+    border-radius: 39px;
+}
+
+.form-heading button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 154%;
+    letter-spacing: 0%;
+    border: none;
+}
+
+.form-heading span {
+    font-family: Oswald;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 154%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.left-btn {
+    color: rgba(76, 32, 93, 1);
+    border-radius: 32px;
+    clip-path: polygon(0% 0%,
+            90% 0%,
+            100% 50%,
+            90% 100%,
+            0% 100%);
+}
+
+.right-btn {
+    color: white;
+    background-color: rgba(76, 32, 93, 1);
+    border-radius: 32px;
+
+
+}
+
+.select-product,
+.payment-info,
+.summary {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.select-product span,
+.payment-info span,
+.summary span {
+    color: rgba(76, 32, 93, 1);
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 154%;
+    letter-spacing: 0%;
+
+}
+
+.select-product hr,
+.payment-info hr,
+.summary hr {
+    flex: 1;
+}
+
+.member-ship-div {
+    background-color: rgba(248, 244, 242, 1);
+    padding: 0.55rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(227, 227, 227, 1);
+}
+
+.member-ship-div span {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 154%;
+    letter-spacing: 0%;
+}
+
+.circle {
+    height: 16px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+.member-ship-span {
+    margin: 0 1.55rem 0 0.48rem;
+}
+
+.form-group {
+    display: flex;
+    gap: 1rem;
+}
+
+.member-ship-price {
+    display: flex;
+    justify-content: space-around;
+}
+
+.member-ship-price span {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 154%;
+    letter-spacing: 0%;
+}
+
+.member-ship-price span+span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 154%;
+}
+
+.agree-div {
+    display: flex;
+    gap: 1rem;
+}
+
+.agree-div .circle {
+    background-color: rgba(248, 244, 242, 1);
+    border: 1px solid rgba(227, 227, 227, 1)
+}
+
+form button {
+    border: none;
+    border-radius: 20px;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(77.58deg, #B750B1 13.14%, #F8CB85 114.84%);
+    color: white;
+    cursor: pointer;
+}
+
+.form-footer {
+    display: flex;
+    align-items: center;
+    padding: 0.9rem 1rem;
+}
+
+.form-footer span {
+    font-size: 12px;
+}
+
+
+.form-footer img {
+    width: 100%;
+    display: block;
+}
+
+/* seciton 1 right side /content side */
+.challange-list p {
+    position: relative;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: rgba(87, 37, 106, 1);
+    margin: 12px;
+
+}
+
+.challange-list p span {
+    color: rgba(183, 80, 177, 1);
+}
+
+.challange-list p::before {
+    position: absolute;
+    content: " ";
+    background-image: url("../../assets/check-icon.png");
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    left: -8%;
+    margin-top: 22px;
+}
+
+.total-value h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 154%;
+    letter-spacing: 0%;
+    color: rgba(183, 80, 177, 1);
+
+}
+
+.total-value p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 154%;
+    letter-spacing: 0%;
+    color: rgba(87, 37, 106, 1);
+}
+
+.challenge-start-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.challenge-start-in .circle {
+    height: 73px;
+    width: 73px;
+    border: 3px solid rgba(76, 32, 93, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.challenge-start-in .circle+p {
+    font-family: GT Walsheim Pro;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 148%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(76, 32, 93, 1);
+
+
+}
+
+.challenge-start-in .circle span {
+    color: rgba(76, 32, 93, 1);
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 148%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.challenge-start-heading {
+    text-align: center;
+    color: rgba(236, 180, 142, 1);
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 154%;
+    letter-spacing: 17%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1rem 0 0.66rem 0;
+}
+
+.circle-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+@media (max-width:680px) {
+    form {
+        max-width: 100%;
+    }
+
+    .form-group {
+        flex-direction: column;
+    }
+
+    .section-1 {
+        flex-direction: column;
+    }
+
+    main {
+        padding: 2rem 3rem;
+    }
+
+    .content-side {
+        transform: translateY(0);
+        max-width: 100%;
+    }
+
+    .challenge-start-in {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:400px) {
+    main {
+        padding: 1rem;
+    }
+
+}
